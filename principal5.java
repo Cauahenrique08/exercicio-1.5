@@ -2,8 +2,8 @@ package view;
 
 import javax.swing.JOptionPane;
 
-import ex2.ordenar;
-import ex5.somadiv;
+
+import ex5.somadiv; // importando biblioteca com a recursividade
 
 public class principal5 
 {
@@ -19,7 +19,7 @@ public class principal5
 		 
 	 
     
-    double resultado = somadiv.soma(numero);
+    double resultado = somadiv.soma(numero); // double para armazenar os resusltados das operações feitas dentro da recursivade
     System.out.println(resultado);
 	}
 

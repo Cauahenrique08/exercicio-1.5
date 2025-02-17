@@ -13,7 +13,7 @@ public class somadiv {
 		  double S = 0;
 		  double X= 1;
 				  
-		  if (X == N)
+		  if (X == N) // parada, pois caso N seja igual a 1, 1/1 será igual a 1 e não é mais necessario as divisões
 		  {return 1 ;}
 		  
 		  else 
